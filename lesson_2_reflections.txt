@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need it?
 	when you initialize a repository, git makes a hidden Folder where it stores all the necessary data to keep track of the changes. Without it, version control would be impossible.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	what is in the working directory is the current status of the programm. What is in the repository is saved for future reference. What is in the staging area can still be changed or thrown out without leaving traces. You can make errors and change them without being cluttered by them in the future.
