@@ -3,3 +3,6 @@ What happens when you initialize a repository? Why do you need it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	what is in the working directory is the current status of the programm. What is in the repository is saved for future reference. What is in the staging area can still be changed or thrown out without leaving traces. You can make errors and change them without being cluttered by them in the future.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	by only adding the files that belong to the same logical change to the staging area with git add file, you can make sure that you keep logical changes together. First you collect one set of files in the staging area, commit them together, then you collect the next set in the staging area, commit them together and so on until you are done and everything you want to commit has been commited. if you find, there is a change you don't want to commit, you can reset that file.
