@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need it?
+	when you initialize a repository, git makes a hidden Folder where it stores all the necessary data to keep track of the changes. Without it, version control would be impossible.
