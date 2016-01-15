@@ -27,8 +27,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
-
+    You would have to get all collaborators into the same room to make that efficient, so you can directly solve contradictory issues.
+    It makes it easier for everyone to work remotely and at their own time and find conflicting issues to solve by merging the branches and then only solving those directly.
+    
+    
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
