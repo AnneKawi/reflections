@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	by only adding the files that belong to the same logical change to the staging area with git add file, you can make sure that you keep logical changes together. First you collect one set of files in the staging area, commit them together, then you collect the next set in the staging area, commit them together and so on until you are done and everything you want to commit has been commited. if you find, there is a change you don't want to commit, you can reset that file.
+
+What are some situations when branches wpould be helpful in keeping your history organized? How would branches help?
+	in order to work on several versions or experimental features of the programm without disturbing the main programm, branches can be helpful. You work on one feature on on branch, but keep the master branch working normal, and then you can still either kill the special branch with the feature or merge it to the master in the end.
