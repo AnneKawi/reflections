@@ -17,3 +17,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	when two branches are merged, you get a branch with the features of both branches and can access all the commits of both branches from the new main branch. Hence the fork out and then remerge of the branch in the diagram.
 	to merge you checkout branch you want the other to merge into, then give the 'git merge branchnameminor' command and git will do its best to merge the minor branch into the one you are on automatically
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	automatic merges save you a ton of time, but figuring out conflicts is best done by the programmers that initiated them. So by automatically merging and solving the conflicts manually, you get the best of both sides:
+	Getting the boring part of the work done automatically and having the security of solving the conflicts yourself rather letting a machine guess your intentions.
