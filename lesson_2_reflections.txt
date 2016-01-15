@@ -12,3 +12,5 @@ What are some situations when branches wpould be helpful in keeping your history
 
 How do the diagrams help you visualize the branch structure?
 	the diagrams help keep track of the various branches and visualizing them prevents me from mixing up the different versions. I can look up after which change the branch forked out and which changes are included in which branch.
+	Kommando: git log --graph --oneline branchname1 branchname2
+	
