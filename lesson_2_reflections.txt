@@ -14,3 +14,6 @@ How do the diagrams help you visualize the branch structure?
 	the diagrams help keep track of the various branches and visualizing them prevents me from mixing up the different versions. I can look up after which change the branch forked out and which changes are included in which branch.
 	Kommando: git log --graph --oneline branchname1 branchname2
 	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	when two branches are merged, you get a branch with the features of both branches and can access all the commits of both branches from the new main branch. Hence the fork out and then remerge of the branch in the diagram.
+	to merge you checkout the major of the two branches, then give the 'git merge branchnamemajor branchname' command and git will do its best to merge both branches automatically
